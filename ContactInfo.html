@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Information</title>
+  </head>
+  <body>
+<h2> Contact Me</h2>
+<p><b>Phone Number:</b> 123-653-1895 </P>
+<P><b>Email Address:</b> Yvonne@gmail.com </P>
+
+<P><h3>Sign up for my News Letter </p></h3>
+  <form action="mailto:Yvonne@gmail.com" method="post" enctype="text/plain">
+    <!---Using the action and method attributes here will allow the submitted details from the form to be populated in an email.So the user can send it to you directly. --->
+
+<label for="fname"> First Name:</label><br />
+  <input type = "text" Id="fname" name="fname" /><br />
+   <!--- The use of name= in here will allow the text within the emails to come thorugh with labels so you can understand what information was sent to you and not just jumbled up text. --> 
+<label for="lname"> Last Name:</label><br />
+  <input type = "text" Id="lname" name="lname" /><br />
+<label for="emailaddress"> Email Address:</label><br />
+  <input type = "email" Id="emailaddress" name="emailaddress" /><br />
+<input type= "checkbox" Id="Weekly" name="Weekly" />
+   <label for="Weekly"> Weekly</label>  <br />
+<input type= "checkbox" Id="Monthly" name="Monthly" />
+  <label for="Monthly"> Monthly</label> <br />
+<P>
+  <input type ="submit" /> </p>
+</form>
+  </body>
+</html>
